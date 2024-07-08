@@ -11,7 +11,6 @@ module memory
   
   initial
   begin
-    $monitor("%h", mem_array[16]);
     $readmemb(MEM_FILE, mem_array, 2048, 4095);
     if (DATA_FILE != "")
       $readmemh(DATA_FILE, mem_array, 0, 32);
