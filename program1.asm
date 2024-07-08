@@ -1,0 +1,4 @@
+lr R1, 0x10
+lr R2, 0x20
+add R3, R1, R2  
+sr R3, 0x30
